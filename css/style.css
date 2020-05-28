@@ -172,6 +172,8 @@ font-family: "Roboto", sans-serif;*/
     width: 390px;
     padding-left: 90px;
     margin-bottom: 104px;
+    background-repeat: no-repeat;
+    background-position: 30px top;
 }
 
 .services__list-item-title {
@@ -196,38 +198,26 @@ font-family: "Roboto", sans-serif;*/
 
 .icon-clock {
     background-image: url(../images/services-icons/clock.png);
-    background-repeat: no-repeat;
-    background-position: 30px top;
 }
 
 .icon-graph {
     background-image: url(../images/services-icons/graph.png);
-    background-repeat: no-repeat;
-    background-position: 30px top;
 }
 
 .icon-computer {
     background-image: url(../images/services-icons/computer.png);
-    background-repeat: no-repeat;
-    background-position: 30px top;
 }
 
 .icon-book {
     background-image: url(../images/services-icons/book.png);
-    background-repeat: no-repeat;
-    background-position: 30px top;
 }
 
 .icon-home {
     background-image: url(../images/services-icons/home.png);
-    background-repeat: no-repeat;
-    background-position: 30px top;
 }
 
 .icon-figure {
     background-image: url(../images/services-icons/figure.png);
-    background-repeat: no-repeat;
-    background-position: 30px top;
 }
 
 /* TEAM */
@@ -449,13 +439,8 @@ font-family: "Roboto", sans-serif;*/
 }
 
 .contact-form__input::placeholder {
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
     color: rgb(204, 204, 204);
-    font-style: italic;
-    font-weight: 300;
     line-height: 1.6;
-    text-align: left;
 }
 
 .contact-form__input:focus:valid {
